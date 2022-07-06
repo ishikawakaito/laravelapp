@@ -60,7 +60,7 @@ class Jissyu5_2Controller extends Controller
     {
         $param = ['id' => $request->id];
         $items = DB::select('select * from people where id = :id', $param);
-        return view('jissyu5_2.del', ['item' => $item[0]]);
+        return view('jissyu5_2.del', ['items' => $items]);
     }
 
     public function remove(Request $request)
