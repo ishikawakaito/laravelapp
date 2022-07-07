@@ -13,4 +13,4 @@ d->e
 e->f :@extends
 e<---f
 
-@enduml 
+@enduml
